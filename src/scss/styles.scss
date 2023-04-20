@@ -38,10 +38,12 @@
 // 8. Add additional custom code here
 
 // Layout
+@import "./layout/layout";
 @import "./layout/header";
 @import "./layout/footer";
 
 // Components
+@import "./components/containers";
 
 // Utilities
 @import "./utilities";
