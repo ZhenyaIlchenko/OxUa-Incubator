@@ -2,3 +2,46 @@ header {
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  @include media-breakpoint-up(sm) {
+    height: 41px;
+    width: 193px;
+  }
+}
+
+// .header-nav-btn {
+//   display: flex;
+//   justify-content: end;
+// }
+
+.header-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 80px;
+  margin-bottom: 0;
+}
+
+.header-nav-link {
+  color: $title-color;
+  display: block;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  @include media-breakpoint-down(md) {
+    display: none;
+  }
+
+}
+
+.header-btn {
+  margin-right: auto;
+}
