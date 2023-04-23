@@ -4,44 +4,38 @@ header {
 }
 
 .header-nav {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
+  display: flex;
 }
 
 .header-logo {
-  @include media-breakpoint-up(sm) {
-    height: 41px;
-    width: 193px;
+  margin-right: auto;
+}
+
+.header-logo-img {
+  @include media-breakpoint-down(sm) {
+    height: 32px;
+    width: 150px;
   }
 }
 
-// .header-nav-btn {
-//   display: flex;
-//   justify-content: end;
-// }
-
 .header-nav-list {
-  list-style: none;
   display: flex;
   gap: 80px;
+  list-style: none;
   margin-bottom: 0;
+  margin-right: 35px;
+  padding-left: 0;
+
+  @include media-breakpoint-down(lg) {
+    display: none;
+  }
 }
 
 .header-nav-link {
   color: $title-color;
-  display: block;
   font-weight: 600;
   line-height: 1.2;
   text-decoration: none;
   text-transform: uppercase;
-
-  @include media-breakpoint-down(md) {
-    display: none;
-  }
-
-}
-
-.header-btn {
-  margin-right: auto;
 }
