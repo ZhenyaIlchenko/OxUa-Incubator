@@ -1,0 +1,18 @@
+.hero-section {
+  padding-bottom: 45px;
+
+  @include media-breakpoint-up(sm) {
+    // padding-bottom: 190px;
+    padding-bottom: 90px;
+  }
+}
+
+.mission-section {
+  // padding-bottom: 118px;
+  padding-bottom: 50px;
+
+  @include media-breakpoint-up(sm) {
+    // padding-bottom: 145px;
+    padding-bottom: 90px;
+  }
+}
