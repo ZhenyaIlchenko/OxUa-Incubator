@@ -5,7 +5,7 @@ $grey-text-color: #717171;
 $white-text-color: #fff;
 $primary: #ff8701;
 $secondary: #0386ff;
-$third: #e4eff9;
+$info: #e4eff9;
 
 $container-max-widths: (
   sm: 540px,
@@ -46,5 +46,23 @@ $headings-font-weight: 600;
 $headings-line-height: 1.4;
 $headings-color: $title-color;
 
+// Links
+$link-color: $secondary;
+
 // Style p element.
 // $paragraph-margin-bottom: 1rem !default;
+
+
+// Buttons
+$btn-padding-y: 15px;
+$btn-padding-x: 30px;
+$btn-font-size: 24px;
+$btn-line-height: 1.4;
+$btn-border-radius: 20px;
+$btn-font-weight: 600;
+
+$btn-padding-y-sm: 10px;
+$btn-padding-x-sm: 20px;
+$btn-font-size-sm: 16px;
+$btn-border-radius-sm: 20px;
+
