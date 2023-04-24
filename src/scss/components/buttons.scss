@@ -2,16 +2,25 @@ $icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="19
 $icon-grey: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="19" height="12" fill="none"><path fill="#717171" fill-rule="evenodd" d="M1.263 1.127a1.716 1.716 0 0 1 2.474 0L9.5 7.054l5.763-5.927a1.716 1.716 0 0 1 2.474 0 1.836 1.836 0 0 1 0 2.546l-7 7.2a1.716 1.716 0 0 1-2.474 0l-7-7.2a1.837 1.837 0 0 1 0-2.546Z" clip-rule="evenodd"/></svg>');
 
 
-.btn-primary {
+.btn-primary,
+.btn-secondary  {
   --bs-btn-color: #fff;
   --bs-btn-hover-color:#717171;
   --bs-btn-active-color:#717171;
+
+  @include media-breakpoint-down(sm) {
+    font-size: 20px;
+  }
 }
 
 .btn-info {
   --bs-btn-color: #0386ff;
   --bs-btn-hover-color:#717171;
   --bs-btn-active-color:#717171;
+
+  @include media-breakpoint-down(sm) {
+    font-size: 20px;
+  }
 }
 
 .btn-down {
@@ -40,12 +49,25 @@ $icon-grey: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" widt
 }
 
 .bth-hero {
+  // margin-bottom: 150px;
   margin-right: 50px;
-  @include media-breakpoint-down(sm) {
+  @include media-breakpoint-down(lg) {
     font-size: 20px;
     margin-bottom: 15px;
     margin-right: auto;
     margin-left: auto;
     width: 100%;
+  }
+}
+
+.btn-active-md {
+  @include media-breakpoint-down(lg) {
+    display: none;
+  }
+}
+
+.btn-active-sm {
+  @include media-breakpoint-up(lg) {
+    display: none;
   }
 }
