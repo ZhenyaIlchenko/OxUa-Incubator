@@ -1,6 +1,11 @@
 header {
   padding-top: 15px;
   padding-bottom: 15px;
+
+  @include media-breakpoint-down(sm) {
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
 }
 
 .header-nav {
