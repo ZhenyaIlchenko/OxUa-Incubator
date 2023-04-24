@@ -1,18 +1,49 @@
 .hero-section {
   padding-bottom: 45px;
+  padding-top: 15px;
 
   @include media-breakpoint-up(sm) {
-    // padding-bottom: 190px;
-    padding-bottom: 90px;
+    padding-bottom: 195px;
+    // padding-bottom: 90px;
+    padding-top: 60px;
   }
 }
 
 .mission-section {
-  // padding-bottom: 118px;
-  padding-bottom: 50px;
+  padding-bottom: 118px;
+  // padding-bottom: 50px;
 
   @include media-breakpoint-up(sm) {
-    // padding-bottom: 145px;
-    padding-bottom: 90px;
+    padding-bottom: 143px;
+    // padding-bottom: 90px;
+  }
+}
+
+.values-section {
+  padding-bottom: 108px;
+
+  @include media-breakpoint-up(sm) {
+    padding-bottom: 120px;
+  }
+}
+
+.btn-section {
+  background: rgba(149, 204, 255, 0.26);
+  backdrop-filter: blur(2px);
+  border-radius: 68px;
+  padding-bottom: 75px;
+  padding-top: 50px;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  @include media-breakpoint-up(sm) {
+    padding-bottom: 85px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding-left: 80px;
+    padding-right: 80px;
   }
 }
