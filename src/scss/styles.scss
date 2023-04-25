@@ -25,7 +25,7 @@
 @import "~bootstrap/scss/type";
 @import "~bootstrap/scss/images";
 @import "~bootstrap/scss/grid";
-@import "~bootstrap/scss/helpers";
+// @import "~bootstrap/scss/helpers";
 
 @import "~bootstrap/scss/card";
 @import "~bootstrap/scss/buttons";
@@ -47,6 +47,7 @@
 @import "./components/containers";
 @import "./components/type";
 @import "./components/buttons";
+@import "./components/card";
 
 // Utilities
 @import "./utilities";
