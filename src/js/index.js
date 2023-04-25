@@ -1,1 +1,1 @@
-// alert("Hello from JavaScript");
+import Carousel from "bootstrap/js/dist/carousel";
