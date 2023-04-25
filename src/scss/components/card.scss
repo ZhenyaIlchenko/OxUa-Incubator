@@ -1,0 +1,15 @@
+.card-svg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media-breakpoint-down(lg) {
+    height: 64px;
+    width: 64px;
+  }
+}
+
+// .card-background {
+//   background: rgba(255, 255, 255, 0.62);
+//   backdrop-filter: blur(2px);
+// }
