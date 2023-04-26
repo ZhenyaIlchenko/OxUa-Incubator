@@ -65,3 +65,27 @@
     padding-bottom: 220px;
   }
 }
+
+.team-section {
+  padding-bottom: 60px;
+
+  @include media-breakpoint-up(sm) {
+    padding-bottom: 45px;
+  }
+}
+
+.mentors-section {
+  padding-bottom: 120px;
+
+  @include media-breakpoint-up(sm) {
+    padding-bottom: 245px;
+  }
+}
+
+.start-ups-section {
+  padding-bottom: 80px;
+
+  @include media-breakpoint-up(sm) {
+    padding-bottom: 210px;
+  }
+}
