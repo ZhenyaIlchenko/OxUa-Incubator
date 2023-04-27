@@ -1,0 +1,43 @@
+.form-img {
+  border-radius: 45px;
+}
+
+.form-svg {
+  @include media-breakpoint-down(lg) {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.form-title {
+  color: $white-text-color;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.form-text {
+  color: $white-text-color;
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  @include media-breakpoint-up(lg) {
+    font-size: 32px;
+    margin-bottom: 60px;
+  }
+}
+
+.form-input-text {
+  @include media-breakpoint-down(lg) {
+    border-radius: 20px;
+    font-size: 16px;
+    min-height: calc(1.5em + 22px);
+    padding: 10px 14px;
+  }
+}
+
+.form-second {
+  background-color: #e4eff9;
+  border-color: #e4eff9;
+  color: $title-color;
+}
