@@ -36,12 +36,6 @@ $spacers: (
 $font-size-base: 1rem;
 $h1-font-size: $font-size-base * 3;
 
-// $line-height-base: 2;
-
-// $headings-margin-bottom: $spacer * .5 !default;
-// $headings-font-family: null !default;
-// $headings-font-style: null !default;
-
 $headings-font-weight: 600;
 $headings-line-height: 1.4;
 $headings-color: $title-color;
@@ -70,4 +64,20 @@ $card-height: 100%;
 $card-spacer-y: 30px;
 $card-spacer-x: 33px;   
 $card-border-color: #C8DDF2;
-$card-border-radius: 20px;       
+$card-border-radius: 20px;
+
+//  Carousel //
+$carousel-control-color: $secondary;
+// $carousel-control-width:             15%;
+$carousel-indicator-active-bg: $secondary;
+// $carousel-indicator-width:           30px;
+$carousel-indicator-height:          6px;
+
+// Forms
+$input-font-size: 20px;
+$input-padding-y: 20px;
+$input-padding-x: 25px;
+$input-border-radius: 25px;
+$input-placeholder-color: $white-text-color;
+$input-bg: #05274b;
+$input-border-color: #05274b; 
