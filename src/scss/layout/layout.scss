@@ -6,3 +6,11 @@ main {
     padding-top: 10px;
   }
 }
+
+.form-main {
+  padding-bottom: 50px;
+
+  @include media-breakpoint-down(sm) {
+    padding-bottom: 10px;
+  }
+}
