@@ -89,3 +89,13 @@
     padding-bottom: 210px;
   }
 }
+
+.form-section {
+  background: #00142A;
+  border-radius: 43px;
+  padding: 25px 16px;
+
+  @include media-breakpoint-up(sm) {
+    padding: 35px 33px; 
+  }
+}
