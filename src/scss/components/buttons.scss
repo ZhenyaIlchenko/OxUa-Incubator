@@ -52,7 +52,6 @@ $icon-grey: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" widt
   // margin-bottom: 150px;
   margin-right: 50px;
   @include media-breakpoint-down(lg) {
-    font-size: 20px;
     margin-bottom: 15px;
     margin-right: auto;
     margin-left: auto;
@@ -70,4 +69,12 @@ $icon-grey: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" widt
   @include media-breakpoint-up(lg) {
     display: none;
   }
+}
+
+.bth-form {
+  @include media-breakpoint-down(lg) {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
 }
