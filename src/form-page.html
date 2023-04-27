@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <include src="./partials/head.html" locals='{
+        "title": "Form page"
+    }'></include> 
+
+  <body>
+    <include src="./partials/header.html"></include>
+
+    <main class="form-main">
+      <div class="container">
+        <!-- <include src="./partials/hero.html"></include> -->
+        <div class="row row-cols-1 row-cols-lg-2 g-2">
+          <div class="col">
+            <h1>Want to invest in or help growing talent?</h1>
+            <p class="text-align-center-lg mb-5">Fill out this form and we will contact you!</p>
+            <img class="img-fluid form-svg" src="/src/images/hero.svg" alt="Rocket image" width="184" height="175">
+          </div>
+          <div class="col">
+            <form class="row g-2">
+              <div class="col-12">
+                <input type="text" class="form-control form-input-text form-second" placeholder="Name" aria-label="Name">
+              </div>
+              <div class="col-12">
+                <input type="email" class="form-control form-input-text" placeholder="Email" aria-label="Email">
+              </div>
+              <div class="col-12">
+                <textarea class="form-control form-input-text" placeholder="Message" style="height: 177px"></textarea>
+              </div>
+              <div class="col-12 text-align-center">
+                <button type="submit" class="btn btn-primary bth-form">Send</button>
+              </div>
+            </form>
+          
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <include src="./partials/footer.html"></include>
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>
