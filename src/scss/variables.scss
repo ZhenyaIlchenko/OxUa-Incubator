@@ -68,10 +68,38 @@ $card-border-radius: 20px;
 
 //  Carousel //
 $carousel-control-color: $secondary;
-// $carousel-control-width:             15%;
 $carousel-indicator-active-bg: $secondary;
-// $carousel-indicator-width:           30px;
+$carousel-indicator-width:           20px;
 $carousel-indicator-height:          6px;
+
+
+// $carousel-control-color:             $white;
+// $carousel-control-width:             15%;
+// $carousel-control-opacity:           .5;
+// $carousel-control-hover-opacity:     .9;
+// $carousel-control-transition:        opacity .15s ease;
+
+// $carousel-indicator-width:           30px;
+// $carousel-indicator-height:          3px;
+// $carousel-indicator-hit-area-height: 10px;
+// $carousel-indicator-spacer:          3px;
+// $carousel-indicator-opacity:         .5;
+// $carousel-indicator-active-bg:       $white;
+// $carousel-indicator-active-opacity:  1;
+// $carousel-indicator-transition:      opacity .6s ease;
+
+// $carousel-caption-width:             70%;
+// $carousel-caption-color:             $white;
+// $carousel-caption-padding-y:         1.25rem;
+// $carousel-caption-spacer:            1.25rem;
+
+// $carousel-control-icon-width:        2rem;
+
+$carousel-control-prev-icon-bg:      url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="none"><rect width="35.507" height="35.507" x=".247" y=".247" fill="#0386FF" stroke="#0386FF" stroke-width=".493" rx="5.671"/><path fill="#fff" fill-rule="evenodd" d="M21.05 23.122a1.036 1.036 0 0 0 0-1.465l-3.41-3.41 3.41-3.41a1.036 1.036 0 0 0-1.464-1.465l-4.143 4.143a1.036 1.036 0 0 0 0 1.464l4.143 4.143c.404.404 1.06.404 1.464 0Z" clip-rule="evenodd"/></svg>');
+$carousel-control-next-icon-bg:      url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="none"><rect width="35.507" height="35.507" x="-.247" y=".247" fill="#0386FF" stroke="#0386FF" stroke-width=".493" rx="5.671" transform="matrix(-1 0 0 1 35.507 0)"/><path fill="#fff" fill-rule="evenodd" d="M14.95 23.122a1.036 1.036 0 0 1 0-1.465l3.41-3.41-3.41-3.41a1.036 1.036 0 0 1 1.464-1.465l4.143 4.143c.404.404.404 1.06 0 1.464l-4.143 4.143a1.036 1.036 0 0 1-1.464 0Z" clip-rule="evenodd"/></svg>');
+
+// $carousel-transition-duration:       .6s;
+// $carousel-transition:                transform $carousel-transition-duration ease-in-out; // Define transform transition first if using multiple transitions (e.g., `transform 2s ease, opacity .5s ease-out`)
 
 // Forms
 $input-font-size: 20px;
