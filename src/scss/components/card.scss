@@ -58,7 +58,7 @@
   margin-bottom: 5px;
   // margin-top: 40px;
   
-  @include media-breakpoint-down(sm) {
+  @include media-breakpoint-down(lg) {
     font-size: 20px;
     margin-top: 20px;
     text-align: center;
@@ -71,7 +71,7 @@
   line-height: 1.5;
   margin-bottom: 30px;
 
-  @include media-breakpoint-down(sm) {
+  @include media-breakpoint-down(lg) {
     font-size: 16px;
     margin-bottom: 20px;
     text-align: center;
@@ -82,7 +82,7 @@
   font-style: 22px;
   line-height: 1.96;
 
-  @include media-breakpoint-down(sm) {
+  @include media-breakpoint-down(lg) {
     font-size: 15px;
     text-align: center;
   }
