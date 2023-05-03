@@ -22,7 +22,6 @@
 }
 
 .card-startup-title {
-  font-size: 32px;
   font-weight: 700;
   margin-bottom: 25px;
   margin-top: 40px;
@@ -44,5 +43,47 @@
   @include media-breakpoint-down(sm) {
     font-size: 16px;
     margin-bottom: 50px;
+  }
+}
+
+.card-team {
+  padding: 25px 12px 50px;
+  @include media-breakpoint-up(lg) {
+    padding: 40px 60px 55px;
+  }
+}
+
+.card-team-title {
+  font-weight: 700;
+  margin-bottom: 5px;
+  // margin-top: 40px;
+  
+  @include media-breakpoint-down(sm) {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+
+.card-team-text-blue {
+  color: $secondary;
+  font-style: 20px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+
+  @include media-breakpoint-down(sm) {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+
+.card-team-text {
+  font-style: 22px;
+  line-height: 1.96;
+
+  @include media-breakpoint-down(sm) {
+    font-size: 15px;
+    text-align: center;
   }
 }
