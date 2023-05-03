@@ -2,91 +2,82 @@
   padding-bottom: 45px;
   padding-top: 15px;
 
-  @include media-breakpoint-up(sm) {
-    padding-bottom: 195px;
-    // padding-bottom: 90px;
+  @include media-breakpoint-up(lg) {
+    // padding-bottom: 195px;
+    padding-bottom: 90px;
     padding-top: 60px;
   }
 }
 
 .mission-section {
-  padding-bottom: 118px;
-  // padding-bottom: 50px;
+  // padding-bottom: 118px;
+  padding-bottom: 80px;
 
-  @include media-breakpoint-up(sm) {
-    padding-bottom: 143px;
-    // padding-bottom: 90px;
+  @include media-breakpoint-up(lg) {
+    // padding-bottom: 143px;
+    padding-bottom: 90px;
   }
 }
 
 .values-section {
-  padding-bottom: 108px;
-
-  @include media-breakpoint-up(sm) {
-    padding-bottom: 120px;
-  }
-}
-
-.btn-section {
-  background: rgba(149, 204, 255, 0.26);
-  backdrop-filter: blur(2px);
-  border-radius: 68px;
-  padding-bottom: 75px;
-  padding-top: 50px;
-  padding-left: 16px;
-  padding-right: 16px;
-
-  @include media-breakpoint-up(sm) {
-    padding-bottom: 85px;
-    padding-left: 35px;
-    padding-right: 35px;
-  }
+  // padding-bottom: 108px;
+  padding-bottom: 80px;
 
   @include media-breakpoint-up(lg) {
-    padding-left: 80px;
-    padding-right: 80px;
+    // padding-bottom: 120px;
+    padding-bottom: 90px;
+
   }
 }
 
 .what-we-do-section {
   padding-bottom: 80px;
-  padding-top: 110px;
+  // padding-top: 110px;
+  padding-top: 80px;
 
-  @include media-breakpoint-up(sm) {
-    padding-bottom: 170px;
-    padding-top: 180px;
+
+  @include media-breakpoint-up(lg) {
+    // padding-bottom: 170px;
+    padding-bottom: 90px;
+    // padding-top: 180px;
+    padding-top: 80px;
   }
 }
 
 .industries-section {
   padding-bottom: 85px;
 
-  @include media-breakpoint-up(sm) {
-    padding-bottom: 220px;
+  @include media-breakpoint-up(lg) {
+    // padding-bottom: 220px;
+    padding-bottom: 90px;
   }
 }
 
 .team-section {
-  padding-bottom: 60px;
+  padding-bottom: 80px;
 
-  @include media-breakpoint-up(sm) {
-    padding-bottom: 45px;
+  @include media-breakpoint-up(lg) {
+    // padding-bottom: 45px;
+    padding-bottom: 90px;
   }
 }
 
 .mentors-section {
-  padding-bottom: 120px;
+  // padding-bottom: 120px;
+  padding-bottom: 80px;
 
-  @include media-breakpoint-up(sm) {
-    padding-bottom: 245px;
+  @include media-breakpoint-up(lg) {
+    // padding-bottom: 245px;
+    padding-bottom: 90px;
   }
 }
 
 .start-ups-section {
   padding-bottom: 80px;
 
-  @include media-breakpoint-up(sm) {
-    padding-bottom: 210px;
+  @include media-breakpoint-up(lg) {
+    // padding-bottom: 210px;
+    padding-bottom: 90px;
   }
 }
 
