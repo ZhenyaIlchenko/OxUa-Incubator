@@ -1,0 +1,108 @@
+// .mb-0 {
+//   margin-bottom: 0;
+// }
+
+.mb-3 {
+  margin-bottom: 30px;
+}
+
+.mb-5 {
+  margin-bottom: 50px;
+}
+
+.mb-8 {
+  margin-bottom: 80px;
+}
+
+// .mb-10 {
+//   margin-bottom: 100px;
+// }
+
+.mb--40 {
+  margin-bottom: -40px;
+}
+
+.mb--50 {
+  margin-bottom: -50px;
+}
+
+// .mt-2 {
+//   margin-top: 20px;
+// }
+
+.order-first {
+  @include media-breakpoint-down(lg) {
+    order: -1 !important;
+  }
+}
+
+.bold {
+  font-weight: 600;
+}
+  
+.blue {
+  color: $secondary;
+}
+
+.white {
+  color: $white-text-color;
+}
+
+.text-color-title {
+  color: $title-color;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-center-lg {
+  @include media-breakpoint-down(lg) {
+    text-align: center;
+  }
+}
+
+// .justify-content-center {
+//   justify-content: center;
+// }
+
+.align-items-center {
+  align-items: center;
+}
+
+.mx-auto {
+  margin-right: auto!important;
+  margin-left: auto!important;
+}
+
+.d-block {
+  display: block;
+}
+
+.active-md {
+  @include media-breakpoint-down(lg) {
+    display: none;
+  }
+}
+
+.active-sm {
+  @include media-breakpoint-up(lg) {
+    display: none;
+  }
+}
+
+// .object-fit {
+//   object-fit: contain;
+// }
+
+// .h-100 {
+  //   height: 100%;
+// }
+
+// .d-flex {
+//   display: flex!important;
+// }
+
+// .flex-column {
+//   flex-direction: column!important;
+// }
