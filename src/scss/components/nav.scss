@@ -1,0 +1,11 @@
+.nav-tabs-team {
+  border-bottom: 0;
+}
+
+.nav-tabs-team
+.nav-link {
+  border-top-left-radius: var(--bs-nav-tabs-border-radius);
+  border-bottom-left-radius: var(--bs-nav-tabs-border-radius);
+  border-top-right-radius: 0;
+  border-right: 0;
+}
