@@ -48,6 +48,11 @@
 
 .card-team {
   padding: 25px 12px 50px;
+
+  // border-left: 0;
+  border-top-left-radius: 0;
+  // border-bottom-left-radius: 0;
+
   @include media-breakpoint-up(lg) {
     padding: 40px 60px 60px;
   }
