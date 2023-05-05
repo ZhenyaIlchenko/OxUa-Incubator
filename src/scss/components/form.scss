@@ -40,4 +40,9 @@
   background-color: #e4eff9;
   border-color: #e4eff9;
   color: $title-color;
+
+  &:focus {
+    background-color: #e4eff9; 
+    color: $title-color;
+  }
 }
