@@ -1,0 +1,105 @@
+.bg-img-hero {
+  display: block;
+  position: absolute;
+  bottom: -400px;
+  left: -165px;
+
+  @include media-breakpoint-down(lg) {
+    display: none;
+  }
+}
+
+.bg-img-rocket {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 100px;
+  margin: -100px;
+
+  display: block;
+}
+
+.bg-img-values-blue {
+  position: absolute;
+  left: -140px;
+  top: -70px;
+}
+
+.bg-img-values-yellow {
+  position: absolute;
+  left: 40%;
+  top: 90px;
+
+  @include media-breakpoint-down (lg) {
+    width: 348px;
+    height: 348px;
+    left: 15%;
+    top: 30%;
+  }
+}
+
+.bg-img-values-green {
+  position: absolute;
+  right: -50px;
+  top: -70px;
+
+  @include media-breakpoint-down (lg) {
+    width: 3988px;
+    height: 398px;
+    right: -20%;
+    top: 53%;
+  }
+}
+
+.bg-img-what-we-do-yellow {
+  left: 160px;
+  top: 92px;
+  opacity: .7;
+  position: absolute;
+
+  @include media-breakpoint-down (lg) {
+    left: 15%;
+    top: 600px;
+    opacity: 1; 
+  }
+}
+
+.bg-img-what-we-do-blue {
+  right: 192px;
+  top: -130px;
+  opacity: .7;
+  position: absolute;
+
+  @include media-breakpoint-down (lg) {
+    right: 30%;
+    top: 270px;
+    opacity: 1;
+  }
+}
+
+.bg-img-start-ups-yellow {
+  top: 40px;
+  left: 10%;
+  opacity: .7;
+  position: absolute;
+
+  @include media-breakpoint-down (lg) {
+    width: 512px;
+    top: 351px;
+    right: auto;
+    left: -14%;
+  }
+}
+
+.bg-img-start-ups-blue {
+  top: -200px;
+  right: 9%;
+  opacity: .7;
+  position: absolute;
+
+  @include media-breakpoint-down (lg) {
+    width: 587px;
+    top: -10px;
+    right: -11%;
+  }
+}
