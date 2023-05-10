@@ -1,3 +1,10 @@
+.card-number {
+  border: 1px solid #c8ddf2;
+  border-radius: 20px;
+  padding: 23px 25px 22px;
+  text-align: start;
+}
+
 .card-svg {
   display: block;
   margin-left: auto;
@@ -9,10 +16,10 @@
   }
 }
 
-// .card-background {
-//   background: rgba(255, 255, 255, 0.62);
-//   backdrop-filter: blur(2px);
-// }
+.card-background {
+  background: rgba(255, 255, 255, 0.62);
+  backdrop-filter: blur(2px);
+}
 
 .card-startup {
   padding: 50px 20px 40px;
