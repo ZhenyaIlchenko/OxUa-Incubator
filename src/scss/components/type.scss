@@ -55,6 +55,13 @@ p {
   }
 }
 
+.p-text {
+  margin-bottom: 20px;
+  @include media-breakpoint-up(lg) {
+    margin-bottom: 50px;
+  }
+}
+
 .hero-text {
   color: $title-color;
   font-size: 20px;
@@ -73,6 +80,22 @@ p {
   @include media-breakpoint-up(sm) {
     font-size: 24px;
   }
+}
+
+.number {
+  color: #000000;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.number-text {
+  color: $primary-text-color;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+
 }
 
 .mission-title {
@@ -144,14 +167,7 @@ p {
     width: 39px;
     content: "";
     background: escape-svg($ukr-icon) no-repeat 0 7px;
-    // background-image: escape-svg($ukr-icon);
-    // background-repeat: no-repeat;
     background-size: contain;
     margin-left: 15px;
-
-    @include media-breakpoint-down(lg) {
-      // height: 29px;
-      // width: 29px;
-    }
   }
 }
