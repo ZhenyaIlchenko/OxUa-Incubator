@@ -1,7 +1,3 @@
-// .mb-0 {
-//   margin-bottom: 0;
-// }
-
 .mb-3 {
   margin-bottom: 30px;
 }
@@ -12,14 +8,6 @@
 
 .mb-8 {
   margin-bottom: 80px;
-}
-
-.mb--40 {
-  margin-bottom: -40px;
-}
-
-.mb--50 {
-  margin-bottom: -50px;
 }
 
 .order-first {
@@ -75,14 +63,6 @@
   }
 }
 
-// .object-fit {
-  //   object-fit: contain;
-  // }
-  
-  // .h-100 {
-    //   height: 100%;
-    // }
-
 .d-block {
   display: block;
 }
@@ -93,4 +73,8 @@
 
 .flex-column {
   flex-direction: column;
+}
+
+.position-relative {
+  position: relative;
 }
