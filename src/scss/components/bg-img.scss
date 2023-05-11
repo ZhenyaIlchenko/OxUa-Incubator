@@ -1,8 +1,10 @@
 .bg-img-hero {
-  display: block;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 199, 1, 0.22) 0%, rgba(217, 217, 217, 0) 100%);
+  bottom: 484px;
+  left: -515px;
+  height: 527px;
+  width: 527px;
   position: absolute;
-  bottom: -400px;
-  left: -165px;
 
   @include media-breakpoint-down(lg) {
     display: none;
